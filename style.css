@@ -1,3 +1,64 @@
-body { 
-    background-color: aqua;
+nav {
+    align-items: flex-start;
+    background-color: #2B2B2B;
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100%;
+}
+
+body {
+    background-color: #EFEFEF;
+    margin: 0;
+}
+
+a {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.website-title {
+    align-self: flex-end;
+    color: #4D99D1;
+    font-size: 2em;
+}
+
+.heading-menu {
+    align-self: flex-end;
+    color: #818181;
+}
+
+.dropdown {
+    justify-content: flex-end;
+    padding: .5em .2em .5em 0;
+}
+
+.right-nav-container {
+    align-content: space-around;
+}
+
+.title {
+    padding: 1em .3em .3em .3em;
+    margin: 0;
+}
+
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
 }
