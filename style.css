@@ -1,5 +1,6 @@
 body {
     font-family: Helvetica;
+    background-color: #f7f7f7
 }
 
 nav {
@@ -22,6 +23,8 @@ div {
     margin: 0;
     grid-template-columns: 2;
     grid-template-rows: 2;
+    cursor:pointer;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .heading-button1 {
@@ -33,6 +36,7 @@ div {
     cursor:pointer;
     overflow: hidden; 
     color: seashell;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .heading-button2 {
@@ -44,6 +48,7 @@ div {
     cursor:pointer;
     overflow: hidden; 
     color: #535353;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .heading-button3 {
@@ -55,6 +60,7 @@ div {
     cursor:pointer;
     overflow: hidden; 
     color: #535353;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .dropdown-menu {
@@ -65,8 +71,8 @@ div {
     border: none;
     cursor:pointer;
     overflow: hidden; 
-    color: seashell
-  
+    color: seashell;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Styling for card section at top of page */
@@ -75,6 +81,7 @@ h1 {
     color: #f5f5f5;
     font-size: 3rem;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   
   ul {
@@ -88,8 +95,8 @@ h1 {
   
   .card {
     box-sizing: border-box;
-    box-shadow: 0px 1px 4px #3B7843;
-    height: 15rem;
+    box-shadow: 0px 1px 4px #2B2B2B;
+    height: 21rem;
     display: flex;
     flex-direction: column;
     margin: .5rem .2rem;
@@ -102,12 +109,13 @@ h1 {
   }
   
   .card header h3 {
-    color: #578C5E;
+    color: #efefef;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-weight: 600;
   }
   
   .card header p {
-    color: #ABC5AE;
+    color: #2B2B2B;
     font-weight: 100;
     font-size: .75rem;
     padding: .5rem 0 0;
@@ -115,7 +123,7 @@ h1 {
   
   .card-body {
     box-sizing: border-box;
-    border: 1px solid #E3ECE4;
+    border: 1px solid 818181;
     flex: 7;
     margin: 1rem 0;
     width: 90%;
@@ -123,7 +131,7 @@ h1 {
   }
   
   li footer {
-    color: #739F79;
+    color: #2B2B2B;
     flex: 1;
     margin: auto;
     width: 90%;
@@ -131,26 +139,33 @@ h1 {
 
   .card1 {
     background-image: url(http://www.concordmusicgroup.com/wp-content/uploads/2014/12/THELONIOUS.jpg);
+    background-size: 100%;
   }
-
   .card2 {
     background-image: url(http://www.saturdayeveningpost.com/wp-content/uploads/satevepost/photo_2011_01_21_duke_ellington.jpg);
+    background-size: 100%;
   }
   .card3 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Herbie_Hancock_1976.JPG/250px-Herbie_Hancock_1976.JPG);
+    background-size: 100%;
   }
   .card4 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(https://media.npr.org/assets/img/2012/01/31/miles-davis-2_wide-b2ba5a4cdd0039f88f30a83a579e47dc9874b5bd-s900-c85.jpg);
+    background-size: 100%;
   }
   .card5 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(https://s.abcnews.com/images/Entertainment/gty_dave_brubeck_jp_121205_wmain.jpg);
+    background-size: 100%;
   }
   .card6 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjM0MDAyNTA3Mjc2/fats-waller-9522591-1-402.jpg);
+    background-size: 100%;
   }
   .card7 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(https://www.gregorysjazz.com/wp-content/uploads/2017/01/django-reinhardt-781x512.jpg);
+    background-size: 100%;
   }
   .card8 {
-    background-image: url(https://media.gq.com/photos/5582d72009f0bee564402435/master/w_800/style-2013-05-daft-punk-daft-punk-630.jpg);
+    background-image: url(http://mediad.publicbroadcasting.net/p/wrti/files/styles/x_large/public/201708/Evans1100px.jpg);
+    background-size: 100%;
   }
