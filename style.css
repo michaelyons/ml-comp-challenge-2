@@ -10,27 +10,33 @@ nav {
     width: 100%;
 }
 
-div {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr;
-}
-
 /* Styling for navigation section at top of page */
 
+.right-nav{
+  display: flex;
+  align-content: space-between;
+  padding:1em 1em 1em 1em;
+  
+}
+
+#blue-icon {
+  color: #4D99D1;
+}
+
+.left-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .website-title {
-    color: #4D99D1;
+    color: seashell;
     font-size: 2em;
     margin: 0;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
     cursor:pointer;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .heading-button1 {
-    grid-template-columns: 1 / 2;
-    grid-template-rows: 2;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -41,8 +47,6 @@ div {
 }
 
 .heading-button2 {
-    grid-template-columns: 2 / 3;
-    grid-template-rows: 2;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -53,8 +57,6 @@ div {
 }
 
 .heading-button3 {
-    grid-template-columns: 3 / 4;
-    grid-template-rows: 2;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -65,14 +67,12 @@ div {
 }
 
 .dropdown-menu {
-    grid-template-columns: 6;
-    grid-template-rows: 1;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden; 
-    color: seashell;
+    color: #4D99D1;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -112,10 +112,6 @@ div {
     filter: brightness(70%);
   }
 
-  .card aside {
-    color: white;
-  }
-
   .link{
     background-color: #efefef;
     color: #535353;
@@ -125,12 +121,16 @@ div {
   
   .card button {
     text-align: center;
-    display: inline-block;
-    font-size: 25px;
-    margin: 5px 4px;
+    display:inline-block;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
     cursor: pointer;
     border: none;
-    border-radius: 50%;
+  }
+
+  i {
+    font-size: 1.5em;
   }
   
   .card-body {
@@ -146,6 +146,11 @@ div {
     font-size: 3em;
     color: #4286f4;
     margin: 0;
+    padding-bottom: .5em;
+  }
+
+  .playlist-name {
+    padding-bottom: 1.5em;
   }
 
   .view-counter {
@@ -153,32 +158,40 @@ div {
   }
   .card1 {
     background: url(http://d29l8fj0bhi1tg.cloudfront.net/wp-content/uploads/2017/06/18082312/245082_full.jpg) no-repeat center/100%;
+    color: white;
   }
 
   .card2 {
-    background: url(http://movieneon.com/img/movies/characters/79/2063.png) no-repeat center/100%;
+    background: url(https://themobmuseum.org/wp-content/uploads/2017/04/4-7-17-Rickles-Casino.jpg) no-repeat center/100%;
+    color: white;
   }
 
   .card3 {
     background: url(https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/styles/full/public/sharonstone_casino_2.jpg?itok=OHt4mcK-) no-repeat center/100%;
+    color: white;
   }
 
   .card4 {
     background: url(https://unrealfacts.com/wp-content/uploads/2015/03/robert-de-niro-mevlana.jpg) no-repeat center/100%; 
+    color: white;
   }
 
   .card5 {
     background: url(https://pmcvariety.files.wordpress.com/2015/01/martin-scorsese-silence.jpg?w=1000&h=563&crop=1) no-repeat center/100%;
+    color: white;
   }
 
   .card6 {
     background: url(https://images-na.ssl-images-amazon.com/images/I/51u7Ehlx9vL.jpg)no-repeat center/ 100%;
+    color: white;
   }
 
   .card7 {
     background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/09/sopranos22_season_6_2006-h_2017.jpg)no-repeat center/100%;
+    color: white;
   }
 
   .card8 {
     background: url(https://grainandnoise.files.wordpress.com/2014/08/lester.jpg)no-repeat center/100%;
+    color: white;
   }
