@@ -14,24 +14,37 @@ nav {
 
 .right-nav{
   display: flex;
-  align-content: space-between;
-  padding:1em 1em 1em 1em;
-  
+  justify-content: flex-start;
+  padding:1em 1em 2em 1em;
 }
 
 #blue-icon {
   color: #4D99D1;
 }
 
-.left-nav {
+div {
+  display: flex;
+  padding: 0;
+  /* justify-content: space-between; */
+}
+
+.left-nav1 {
   display: flex;
   justify-content: flex-end;
 }
 
+.left-nav2 {
+  display: flex;
+  justify-content: flex-end;
+  /* justify-content: space-between; */
+}
+
 .website-title {
+    float: right;
     color: seashell;
+    position: relative;
+    text-align: right;
     font-size: 2em;
-    margin: 0;
     cursor:pointer;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -104,15 +117,24 @@ nav {
     width: 24%;
   }
   
-  .card header {
+  .pic-header { 
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 25vw;
+    padding-left: .5em;
+    padding-top: .5em;
+
+  }
+  /* .card header {
     display: flex;
     justify-content: space-between;
     flex: 1;
     padding: 4em 1em 4em 1em;
     filter: brightness(70%);
-  }
+  } */
 
-  .link{
+  .link {
     background-color: #efefef;
     color: #535353;
     padding: 1em 0em 1em .4em;
@@ -128,7 +150,7 @@ nav {
     cursor: pointer;
     border: none;
   }
-
+  
   i {
     font-size: 1.5em;
   }
@@ -154,44 +176,71 @@ nav {
   }
 
   .view-counter {
-    align-content: center;
+    
+    padding-right: .5em;
+    font-size: 1.5em;
   }
+
   .card1 {
     background: url(http://d29l8fj0bhi1tg.cloudfront.net/wp-content/uploads/2017/06/18082312/245082_full.jpg) no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card2 {
     background: url(https://themobmuseum.org/wp-content/uploads/2017/04/4-7-17-Rickles-Casino.jpg) no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card3 {
     background: url(https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/styles/full/public/sharonstone_casino_2.jpg?itok=OHt4mcK-) no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card4 {
     background: url(https://unrealfacts.com/wp-content/uploads/2015/03/robert-de-niro-mevlana.jpg) no-repeat center/100%; 
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card5 {
     background: url(https://pmcvariety.files.wordpress.com/2015/01/martin-scorsese-silence.jpg?w=1000&h=563&crop=1) no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card6 {
     background: url(https://images-na.ssl-images-amazon.com/images/I/51u7Ehlx9vL.jpg)no-repeat center/ 100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card7 {
     background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/09/sopranos22_season_6_2006-h_2017.jpg)no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
 
   .card8 {
     background: url(https://grainandnoise.files.wordpress.com/2014/08/lester.jpg)no-repeat center/100%;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(70%);
   }
