@@ -1,3 +1,4 @@
+
 body {
     font-family: Helvetica;
     background-color: #f7f7f7
@@ -77,10 +78,11 @@ div {
 
 /* Styling for card section at top of page */
 
-h4 {
+.title {
     color: #535353;
-    font-size: 1.75rem;
+    font-size: 2.5em;
     margin-left: .2em;
+    margin-top: .3em;
   }
   
   ul {
@@ -95,82 +97,88 @@ h4 {
   .card {
     box-sizing: border-box;
     box-shadow: 0px 1px 4px #2B2B2B;
-    height: 25rem;
+    height: 30em;
     display: flex;
     flex-direction: column;
-    margin: .5rem .2rem;
+    margin: .5em .2em;
     width: 24%;
   }
   
   .card header {
+    display: flex;
+    justify-content: space-between;
     flex: 1;
-    padding: 0.5rem 1rem;
+    padding: 4em 1em 4em 1em;
+    filter: brightness(70%);
+  }
+
+  .card aside {
+    color: white;
+  }
+
+  .link{
+    background-color: #efefef;
+    color: #535353;
+    padding: 1em 0em 1em .4em;
+    word-wrap: break-word;
   }
   
-  .card header h3 {
-    color: #efefef;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-weight: 600;
-  }
-  
-  .card header p {
-    color: #2B2B2B;
-    font-weight: 100;
-    font-size: .75rem;
-    padding: .5rem 0 0;
+  .card button {
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 5px 4px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
   }
   
   .card-body {
     box-sizing: border-box;
     border: 1px solid 818181;
     flex: 7;
-    margin: 1rem 0;
+    margin: 1em 0;
     width: 90%;
     margin: .5rem auto;
   }
-  
-  li footer {
-    color: #2B2B2B;
-    flex: 1;
-    margin: auto;
-    width: 90%;
+
+  .attachment-number {
+    font-size: 3em;
+    color: #4286f4;
+    margin: 0;
   }
 
-  .play-counter {
-    color: #efefef;
-    font-size: 2.75rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  .view-counter {
+    align-content: center;
   }
-
   .card1 {
-    background-image: url(http://www.concordmusicgroup.com/wp-content/uploads/2014/12/THELONIOUS.jpg);
-    background-size: 100%;
+    background: url(http://d29l8fj0bhi1tg.cloudfront.net/wp-content/uploads/2017/06/18082312/245082_full.jpg) no-repeat center/100%;
   }
+
   .card2 {
-    background-image: url(http://www.saturdayeveningpost.com/wp-content/uploads/satevepost/photo_2011_01_21_duke_ellington.jpg);
-    background-size: 100%;
+    background: url(http://movieneon.com/img/movies/characters/79/2063.png) no-repeat center/100%;
   }
+
   .card3 {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Herbie_Hancock_1976.JPG/250px-Herbie_Hancock_1976.JPG);
-    background-size: 100%;
+    background: url(https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/styles/full/public/sharonstone_casino_2.jpg?itok=OHt4mcK-) no-repeat center/100%;
   }
+
   .card4 {
-    background-image: url(https://media.npr.org/assets/img/2012/01/31/miles-davis-2_wide-b2ba5a4cdd0039f88f30a83a579e47dc9874b5bd-s900-c85.jpg);
-    background-size: 100%;
+    background: url(https://unrealfacts.com/wp-content/uploads/2015/03/robert-de-niro-mevlana.jpg) no-repeat center/100%; 
   }
+
   .card5 {
-    background-image: url(https://s.abcnews.com/images/Entertainment/gty_dave_brubeck_jp_121205_wmain.jpg);
-    background-size: 100%;
+    background: url(https://pmcvariety.files.wordpress.com/2015/01/martin-scorsese-silence.jpg?w=1000&h=563&crop=1) no-repeat center/100%;
   }
+
   .card6 {
-    background-image: url(https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTIwNjA4NjM0MDAyNTA3Mjc2/fats-waller-9522591-1-402.jpg);
-    background-size: 100%;
+    background: url(https://images-na.ssl-images-amazon.com/images/I/51u7Ehlx9vL.jpg)no-repeat center/ 100%;
   }
+
   .card7 {
-    background-image: url(https://www.gregorysjazz.com/wp-content/uploads/2017/01/django-reinhardt-781x512.jpg);
-    background-size: 100%;
+    background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/09/sopranos22_season_6_2006-h_2017.jpg)no-repeat center/100%;
   }
+
   .card8 {
-    background-image: url(http://mediad.publicbroadcasting.net/p/wrti/files/styles/x_large/public/201708/Evans1100px.jpg);
-    background-size: 100%;
+    background: url(https://grainandnoise.files.wordpress.com/2014/08/lester.jpg)no-repeat center/100%;
   }
