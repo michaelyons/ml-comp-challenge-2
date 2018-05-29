@@ -20,5 +20,5 @@ You may NOT take liberties with the layout, but your creative license includes:
 
 My project carries the theme of one of my favorite movies, Casino(1995). I used the flexbox technique for the overarching structure and then more flexbox to structure content within each individual card section. I chose a color palette using coolers.co. The icons were found via the Font Awesome website.
 
-![alt text](https://github.com/michaelyons/ml-comp-challenge-1/blob/master/Screen%20Shot%202018-05-22%20at%206.41.59%20AM.png)
-![alt text](https://github.com/michaelyons/ml-comp-challenge-1/blob/master/Screen%20Shot%202018-05-22%20at%207.15.38%20AM.png)
+![alt text](https://github.com/michaelyons/ml-comp-challenge-2/blob/master/Screen%20Shot%202018-05-23%20at%207.38.45%20AM.png)
+![alt text](https://github.com/michaelyons/ml-comp-challenge-2/blob/master/Screen%20Shot%202018-05-28%20at%209.33.17%20PM.png)
