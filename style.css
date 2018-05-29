@@ -339,3 +339,9 @@ div {
     margin: .5rem auto;
   }
 }
+
+.left-nav2 {
+  /* display: flex;
+  justify-content: flex-end; */
+  text-align: center;
+}
