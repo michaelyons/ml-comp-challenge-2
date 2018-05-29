@@ -276,6 +276,7 @@ i {
   /* Media queries  */
 
 @media screen and (max-width: 992px) {
+
 ul {
     background-color: #f7f7f7;
     padding: 0;
@@ -324,9 +325,7 @@ i {
     cursor: pointer;
     border: none;
 }
-  
 
-  
 .card-body {
     box-sizing: border-box;
     border: 1px solid 818181;
