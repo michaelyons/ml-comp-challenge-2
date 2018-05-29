@@ -44,7 +44,7 @@ div {
     color: seashell;
     position: relative;
     text-align: right;
-    font-size: 2em;
+    font-size: 3em;
     cursor:pointer;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -84,6 +84,7 @@ div {
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
+    padding-bottom: .2em;
     overflow: hidden; 
     color: #4D99D1;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -97,10 +98,22 @@ div {
     margin-left: .2em;
     margin-top: .3em;
   }
+
+   h3 {
+    margin: 0;
+  }
+
+  h6 {
+    margin:0;
+    padding-top: 2em;
+  }
+
+  .date {
+    padding-bottom: 2em;
+  }
   
   ul {
     background-color: #f7f7f7;
-    list-style-type: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -110,7 +123,7 @@ div {
   .card {
     box-sizing: border-box;
     box-shadow: 0px 1px 4px #2B2B2B;
-    height: 30em;
+    height: 28em;
     display: flex;
     flex-direction: column;
     margin: .5em .2em;
@@ -126,13 +139,6 @@ div {
     padding-top: .5em;
 
   }
-  /* .card header {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    padding: 4em 1em 4em 1em;
-    filter: brightness(70%);
-  } */
 
   .link {
     background-color: #efefef;
@@ -153,6 +159,7 @@ div {
   
   i {
     font-size: 1.5em;
+    padding-left: .2em
   }
   
   .card-body {
@@ -168,11 +175,16 @@ div {
     font-size: 3em;
     color: #4286f4;
     margin: 0;
-    padding-bottom: .5em;
+    padding-bottom: 0;
   }
 
   .playlist-name {
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  .attach {
+    font-size: .75em;
   }
 
   .view-counter {
@@ -244,3 +256,67 @@ div {
     justify-content: space-between;
     filter: brightness(70%);
   }
+
+
+  /* Media queries  */
+
+  @media screen and (max-width: 992px) {
+  ul {
+    background-color: #f7f7f7;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px #2B2B2B;
+    height: 28em;
+    display: flex;
+    flex-direction: column;
+    margin: .5em .2em;
+    max-width: 24%;
+    min-width: 19em;
+  }
+  
+  .pic-header { 
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 25vw;
+    padding-left: .5em;
+    padding-top: .5em;
+
+  }
+
+  .link {
+    background-color: #efefef;
+    color: #535353;
+    padding: 1em 0em 1em .4em;
+    word-wrap: break-word;
+  }
+  
+  .card button {
+    text-align: center;
+    display:inline-block;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
+  i {
+    font-size: 1.5em;
+  }
+  
+  .card-body {
+    box-sizing: border-box;
+    border: 1px solid 818181;
+    flex: 7;
+    margin: 1em 0;
+    width: 90%;
+    margin: .5rem auto;
+  }
+}
