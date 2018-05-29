@@ -110,32 +110,32 @@ div {
     font-size: 2.5em;
     margin-left: .2em;
     margin-top: .3em;
-  }
+}
 
-   h3 {
+h3 {
     margin: 0;
     padding-right: .5em;
     padding-top: .3em;
-  }
+}
 
-  h6 {
+h6 {
     margin:0;
     padding-top: 2em;
-  }
+}
 
-  .date {
+.date {
     padding-bottom: 2em;
-  }
+}
   
-  ul {
+ul {
     background-color: #f7f7f7;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+}
   
-  .card {
+.card {
     box-sizing: border-box;
     box-shadow: 0px 1px 4px #2B2B2B;
     height: 28em;
@@ -143,9 +143,9 @@ div {
     flex-direction: column;
     margin: .5em .2em;
     width: 24%;
-  }
+}
   
-  .pic-header { 
+.pic-header { 
     display: flex;
     justify-content: space-between;
     height: 15vh;
@@ -153,16 +153,16 @@ div {
     padding-left: .5em;
     padding-top: .5em;
 
-  }
+}
 
-  .link {
+.link {
     background-color: #efefef;
     color: #535353;
     padding: 1em 0em 1em .4em;
     word-wrap: break-word;
-  }
+}
   
-  .card button {
+.card button {
     text-align: center;
     display:inline-block;
     height: 3em;
@@ -170,121 +170,121 @@ div {
     border-radius: 50%;
     cursor: pointer;
     border: none;
-  }
+}
   
-  i {
+i {
     font-size: 1.5em;
     padding-left: .2em
-  }
+}
   
-  .card-body {
+.card-body {
     box-sizing: border-box;
     border: 1px solid 818181;
     flex: 7;
     margin: 1em 0;
     width: 90%;
     margin: .5rem auto;
-  }
+}
 
-  .attachment-number {
+.attachment-number {
     font-size: 3em;
     color: #4286f4;
     margin: 0;
     padding-bottom: 0;
-  }
+}
 
-  .playlist-name {
+.playlist-name {
     padding-bottom: 1em;
     font-size: 1.2em;
-  }
+}
 
-  .attach {
+.attach {
     font-size: .75em;
-  }
+}
 
-  .view-counter {
+.view-counter {
     filter: brightness(190%);
     padding-right: .2em;
     font-size: 1.25em;
     float: right;
-  }
+}
 
-  .card1 {
+.card1 {
     background: url(http://d29l8fj0bhi1tg.cloudfront.net/wp-content/uploads/2017/06/18082312/245082_full.jpg) no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card2 {
+.card2 {
     background: url(https://themobmuseum.org/wp-content/uploads/2017/04/4-7-17-Rickles-Casino.jpg) no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card3 {
+.card3 {
     background: url(https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/styles/full/public/sharonstone_casino_2.jpg?itok=OHt4mcK-) no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card4 {
+.card4 {
     background: url(https://unrealfacts.com/wp-content/uploads/2015/03/robert-de-niro-mevlana.jpg) no-repeat center/100%; 
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card5 {
+.card5 {
     background: url(https://pmcvariety.files.wordpress.com/2015/01/martin-scorsese-silence.jpg?w=1000&h=563&crop=1) no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card6 {
+.card6 {
     background: url(https://images-na.ssl-images-amazon.com/images/I/51u7Ehlx9vL.jpg)no-repeat center/ 100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card7 {
+.card7 {
     background: url(https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/09/sopranos22_season_6_2006-h_2017.jpg)no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
-  .card8 {
+.card8 {
     background: url(https://grainandnoise.files.wordpress.com/2014/08/lester.jpg)no-repeat center/100%;
     color: white;
     display: flex;
     justify-content: space-between;
     filter: brightness(70%);
-  }
+}
 
   /* Media queries  */
 
-  @media screen and (max-width: 992px) {
-  ul {
+@media screen and (max-width: 992px) {
+ul {
     background-color: #f7f7f7;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
+}
   
-  .card {
+.card {
     box-sizing: border-box;
     box-shadow: 0px 1px 4px #2B2B2B;
     height: 28em;
@@ -293,26 +293,25 @@ div {
     margin: .5em .2em;
     max-width: 24%;
     min-width: 19em;
-  }
+}
   
-  .pic-header { 
+.pic-header { 
     display: flex;
     justify-content: space-between;
     height: 15vh;
     width: 25vw;
     padding-left: .5em;
     padding-top: .5em;
+}
 
-  }
-
-  .link {
+.link {
     background-color: #efefef;
     color: #535353;
     padding: 1em 0em 1em .4em;
     word-wrap: break-word;
-  }
+}
   
-  .card button {
+.card button {
     text-align: center;
     display:inline-block;
     height: 3em;
@@ -320,24 +319,22 @@ div {
     border-radius: 50%;
     cursor: pointer;
     border: none;
-  }
+}
   
-  i {
+i {
     font-size: 1.5em;
-  }
+}
   
-  .card-body {
+.card-body {
     box-sizing: border-box;
     border: 1px solid 818181;
     flex: 7;
     margin: 1em 0;
     width: 90%;
     margin: .5rem auto;
-  }
+}
 
 .left-nav2 {
-  /* display: flex;
-  justify-content: flex-end; */
   text-align: center;
-  }
+}
 }
