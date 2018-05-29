@@ -31,6 +31,7 @@ div {
 .left-nav1 {
   display: flex;
   justify-content: flex-end;
+  padding-right: .75em;
 }
 
 .left-nav2 {
@@ -90,6 +91,19 @@ div {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+#white-icon {
+  color: #efefef;
+  padding-right: .6em;
+}
+
+#white-icon2 {
+  color: #efefef;
+  font-size: 1em;
+}
+
+#blue-icon2 {
+  padding-left: .6em;
+}
 /* Styling for card section at top of page */
 
 .title {
@@ -99,8 +113,12 @@ div {
     margin-top: .3em;
   }
 
+
+
    h3 {
     margin: 0;
+    padding-right: .5em;
+    padding-top: .3em;
   }
 
   h6 {
@@ -188,9 +206,10 @@ div {
   }
 
   .view-counter {
-    
-    padding-right: .5em;
-    font-size: 1.5em;
+    filter: brightness(190%);
+    padding-right: .2em;
+    font-size: 1.25em;
+    float: right;
   }
 
   .card1 {
