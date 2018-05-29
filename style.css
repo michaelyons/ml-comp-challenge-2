@@ -25,7 +25,6 @@ nav {
 div {
   display: flex;
   padding: 0;
-  /* justify-content: space-between; */
 }
 
 .left-nav1 {
@@ -37,7 +36,6 @@ div {
 .left-nav2 {
   display: flex;
   justify-content: flex-end;
-  /* justify-content: space-between; */
 }
 
 .website-title {
@@ -104,6 +102,7 @@ div {
 #blue-icon2 {
   padding-left: .6em;
 }
+
 /* Styling for card section at top of page */
 
 .title {
@@ -112,8 +111,6 @@ div {
     margin-left: .2em;
     margin-top: .3em;
   }
-
-
 
    h3 {
     margin: 0;
@@ -276,7 +273,6 @@ div {
     filter: brightness(70%);
   }
 
-
   /* Media queries  */
 
   @media screen and (max-width: 992px) {
@@ -338,10 +334,10 @@ div {
     width: 90%;
     margin: .5rem auto;
   }
-}
 
 .left-nav2 {
   /* display: flex;
   justify-content: flex-end; */
   text-align: center;
+  }
 }
