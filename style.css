@@ -103,7 +103,7 @@ div {
   padding-left: .6em;
 }
 
-/* Styling for card section at top of page */
+/* Styling for card section at bottom of page */
 
 h3 {
     margin: 0;
@@ -277,65 +277,69 @@ i {
 
 @media screen and (max-width: 992px) {
 
-ul {
-    background-color: #f7f7f7;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
+    ul {
+        background-color: #f7f7f7;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
 
-i {
-    font-size: 1.5em;
-} 
+    i {
+        font-size: 1.5em;
+    } 
 
-.card {
-    box-sizing: border-box;
-    box-shadow: 0px 1px 4px #2B2B2B;
-    height: 28em;
-    display: flex;
-    flex-direction: column;
-    margin: .5em .2em;
-    max-width: 24%;
-    min-width: 19em;
-}
+    .card {
+        box-sizing: border-box;
+        box-shadow: 0px 1px 4px #2B2B2B;
+        height: 28em;
+        display: flex;
+        flex-direction: column;
+        margin: .5em .2em;
+        max-width: 24%;
+        min-width: 19em;
+    }
   
-.pic-header { 
-    display: flex;
-    justify-content: space-between;
-    height: 15vh;
-    width: 25vw;
-    padding-left: .5em;
-    padding-top: .5em;
-}
+    .pic-header { 
+        display: flex;
+        justify-content: space-between;
+        height: 15vh;
+        width: 25vw;
+        padding-left: .5em;
+        padding-top: .5em;
+    }
 
-.link {
-    background-color: #efefef;
-    color: #535353;
-    padding: 1em 0em 1em .4em;
-    word-wrap: break-word;
-}
+    .link {
+        background-color: #efefef;
+        color: #535353;
+        padding: 1em 0em 1em .4em;
+        word-wrap: break-word;
+    }
   
-.card button {
-    text-align: center;
-    display:inline-block;
-    height: 3em;
-    width: 3em;
-    border-radius: 50%;
-    cursor: pointer;
-    border: none;
-}
+    .card button {
+        text-align: center;
+        display:inline-block;
+        height: 3em;
+        width: 3em;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+    }
 
-.card-body {
-    box-sizing: border-box;
-    border: 1px solid 818181;
-    flex: 7;
-    margin: 1em 0;
-    width: 90%;
-    margin: .5rem auto;
-}
+    .card-body {
+        box-sizing: border-box;
+        border: 1px solid 818181;
+        flex: 7;
+        margin: 1em 0;
+        width: 90%;
+        margin: .5rem auto;
+    }
 
-.left-nav2 {
-  text-align: center;
-}
+    .left-nav2 {
+        text-align: center;
+    }
+
+    .view-counter {
+        display: none;
+    }
 }
